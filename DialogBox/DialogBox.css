@@ -1,0 +1,53 @@
+.dialog {
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+    overflow-y: auto;
+}
+
+body, html {
+  background-color: lightgray;
+}
+
+.dialog {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.header {
+    background-color: lightblue;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+  }
+
+.header > h3 {
+    color: darkblue;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
+  }
+
+.image {
+    width: 50%;
+    margin: auto;
+    border: 3px solid darkblue;
+    padding: 10px;
+    margin-left: 4rem;
+
+}
+
+.main {
+    padding: 2rem;
+  }
